@@ -8,8 +8,8 @@ namespace DesignLib
 {
     public abstract class Calc
     {
-        public string NumberA { get; set; }
-        public string NumberB { get; set; }
+        public double NumberA { get; set; }
+        public double NumberB { get; set; }
 
         public abstract Double GetResult();
     }
